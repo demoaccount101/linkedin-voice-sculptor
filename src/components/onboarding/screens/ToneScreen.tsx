@@ -52,7 +52,7 @@ export function ToneScreen({ selected, onChange }: ToneScreenProps) {
       subtitle="Pick what sounds most like you. (max 2)"
       microcopy="Pick what sounds most like you."
     >
-      <div className="space-y-3">
+      <div className="grid grid-cols-2 gap-3">
         {toneOptions.map((tone) => (
           <SelectionCard
             key={tone.id}

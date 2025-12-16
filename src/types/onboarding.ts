@@ -12,7 +12,7 @@ export interface OnboardingData {
     cta: string;
   };
   avoidances: string[];
-  examplePosts: string;
+  examplePosts: string[];
 }
 
 export const defaultOnboardingData: OnboardingData = {
@@ -29,5 +29,5 @@ export const defaultOnboardingData: OnboardingData = {
     cta: 'sometimes',
   },
   avoidances: [],
-  examplePosts: '',
+  examplePosts: [],
 };
